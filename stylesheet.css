@@ -1,0 +1,97 @@
+h1 {
+	color:#00CED1;
+	font-family: 'Press Start 2P', cursive;
+}
+
+
+
+body{
+	background-color:#008080
+}
+
+h3 {
+font-family: 'Press Start 2P', cursive;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.VG {
+	grid-column-start: 1;
+	grid-column-end: span 3;
+	grid-row-start: 1;
+	grid-row-end: span 1;
+}
+
+.PvsC {
+	font-family: 'Press Start 2P', cursive;
+	grid-column-start: 1;
+	grid-column-end: span 1;
+	grid-row-start: 1;
+	grid-row-end: span 1;
+}
+.grid {
+	display: grid; 
+	grid-template-columns: 1fr 1fr 1fr;
+}
+.img1 {
+	grid-column-start: 1;
+	grid-column-end: span 1;
+}
+
+.img2 {
+	grid-column-start: 2;
+	grid-column-end: span 1;
+}
+
+.img3 {
+	grid-column-start: 3;
+	grid-column-end: span 1;
+}
+.gaming{
+	grid-column-start: 2;
+	grid-column-end: span 1;
+	grid-row-start: 1;
+	grid-row-end: span 1;
+	text-align: left;
+}
+.paragraph {
+    grid-column-start: 1;
+	grid-column-end: span 1;
+	grid-row-start: 2;
+	grid-row-end: span 1;
+}
+.column2 {
+	font-family: 'Press Start 2P', cursive;
+	grid-column-start: 2;
+	grid-column-end: span 1;
+	grid-row-start: 2;
+	grid-row-end: span 1;
+}
+
+
+.topnavigation {
+border: solid 10px blue;
+padding: 20px 0px;
+text-align: center;
+color: blue;
+}
+
+.topnavigation a{
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 30px;
+  background-color: blue;
+}
+
+.topnavigation a:hover{
+background-color: green;
+color: purple;
+}
+
+
+
